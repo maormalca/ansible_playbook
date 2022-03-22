@@ -1,0 +1,5 @@
+---
+- name: installs
+  hosts: linux
+  roles:
+    - role: install-docker       
